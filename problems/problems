@@ -1,7 +1,0 @@
-## Main packages used
-- [flutter_bloc](https://leetcode.com/problems/binary-search/)
-- [shared_preferences](https://pub.dev/packages/shared_preferences) 
-
-- [flutter_offline](https://pub.dev/packages/flutter_offline) 
-- [flutter_screenutil](https://pub.dev/packages/flutter_screenutil) 
-- [cloud_firestore](https://pub.dev/packages/cloud_firestore) A Flutter plugin to use the Cloud Firestore API.
