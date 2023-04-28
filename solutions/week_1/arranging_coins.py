@@ -2,13 +2,12 @@ def arrangeCoins(n):
     sum = 0
     for i in range(1, n+1):
         sum = sum + n-(n-i)
+        print("$" * i, end="\n")
         # print(f"sum in loop {sum}")
         if sum == n:
-            print(i)
-            break
+            return i
         if sum > n:
-            print(i-1)
-            break
+            return i-1
 
 
-arrangeCoins(1303455736)
+print(arrangeCoins(5))
